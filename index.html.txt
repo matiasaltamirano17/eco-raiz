@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Eco Raíz</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f7f4;
+        }
+
+        header {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #1b5e20;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #2e7d32;
+        }
+
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Eco Raíz 🌱</h1>
+    <p>Soluciones naturales para un futuro sostenible</p>
+</header>
+
+<nav>
+    <a href="#quees">¿Qué es?</a>
+    <a href="#antofagasta">Antofagasta</a>
+    <a href="#beneficios">Beneficios</a>
+</nav>
+
+<section id="quees">
+    <div class="card">
+        <h2>¿Qué es la fitorremediación?</h2>
+        <p>
+            La fitorremediación es una técnica ambiental que utiliza plantas para limpiar suelos, agua y aire contaminados.
+            Algunas especies vegetales pueden absorber, degradar o estabilizar sustancias tóxicas como metales pesados,
+            ayudando a recuperar ecosistemas dañados.
+        </p>
+    </div>
+</section>
+
+<section id="antofagasta">
+    <div class="card">
+        <h2>Fitorremediación en Antofagasta</h2>
+        <p>
+            En Antofagasta, la actividad minera ha generado contaminación por metales pesados como arsénico, cobre y plomo.
+            Por eso, la fitorremediación se ha convertido en una alternativa sustentable para recuperar suelos dañados.
+        </p>
+        <p>
+            Investigaciones en la región han utilizado plantas como <b>Atriplex</b> para limpiar suelos contaminados,
+            demostrando que es posible reducir la presencia de estos contaminantes de manera natural.
+        </p>
+        <p>
+            Además, centros científicos y universidades en la zona están desarrollando tecnologías basadas en plantas
+            para mejorar la calidad ambiental en contextos mineros.
+        </p>
+    </div>
+</section>
+
+<section id="beneficios">
+    <div class="card">
+        <h2>Beneficios</h2>
+        <ul>
+            <li>🌱 Método ecológico y natural</li>
+            <li>💰 Bajo costo comparado con métodos químicos</li>
+            <li>♻️ Reduce contaminación en suelos y agua</li>
+            <li>🌍 Mejora la calidad de vida en zonas afectadas</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Eco Raíz - Proyecto educativo</p>
+</footer>
+
+</body>
+</html>
